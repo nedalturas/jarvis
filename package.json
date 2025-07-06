@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "yarn": "^1.22.22"
+  },
+  "name": "jarvis.home",
+  "version": "1",
+  "main": "index.njk",
+  "repository": "https://github.com/nedalturas/jarvis.git",
+  "author": "nedalturas",
+  "license": "MIT",
+  "private": false,
+  "scripts":{
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  }
+}
